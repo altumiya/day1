@@ -10,7 +10,7 @@ elif userage > 20:
 else:
     print("underage")
 
-#movie ticket based on age abd day
+#movie ticket based on age and day
 
 age = 25
 day = "wednesday"
