@@ -78,3 +78,30 @@ else:
     strength = "medium"   
 
 print("password strength is :" ,strength)
+
+#leap year with operators
+
+year = 2026
+
+if(year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+    print(year , "is leap year")
+else :
+    print(year ,"not a leap year")    
+
+# prax for last
+
+species = "cat"
+age = 4
+
+if species == "dog":
+    if age <=2:
+        print("puppy food") 
+    else:
+        print("dog food")
+elif species == "cat":
+    if age > 5:
+        print("senior cat food")
+    else:
+        print("kitten food")
+else:
+    print("no species found") 
