@@ -21,3 +21,37 @@ if day == "wednesday":
     #price -= 50
 
 print("ticket price for you is", price )    
+
+#score cards with exit()
+
+score = 92
+if score >= 101:
+    print("score should be less than 101")
+    exit()
+if score >=90:
+    grade = "A" 
+elif score >=70:
+    grade = "B"
+elif score >=40:
+    grade = "C"      
+else:
+    grade = "Fail"
+
+print("Grade:", grade)      
+
+#fruit ripening nested ifelse
+
+fruit = ""
+color ="yellow"
+
+if fruit =="banana":
+    if color == "yellow":
+        print("ripened")
+    elif color == "green":
+        print("unriped")
+    elif color == "brown":
+        print("overripe")
+    else:
+        print("no fruits")  
+else:
+    print("no fruit is there")    
