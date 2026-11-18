@@ -55,3 +55,26 @@ if fruit =="banana":
         print("no fruits")  
 else:
     print("no fruit is there")    
+
+# coffee order  with concatanation
+ 
+ordersize = "medium"
+extra = False
+if extra :
+    coffee = ordersize + " coffee with extra hit"
+else:
+    coffee = ordersize + " coffee"
+print("order :", coffee)
+
+#password with len classmethod
+
+password = "secure@13"
+
+if len(password) < 6:
+    strength = "weak and less than 6 characters"
+elif len(password) >= 10:
+    strength = "strong and bold"
+else:
+    strength = "medium"   
+
+print("password strength is :" ,strength)
