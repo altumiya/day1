@@ -34,3 +34,13 @@ revstr = ""
 for char in inputstr:
     revstr = char + revstr
 print(revstr)    # kehsihab
+
+
+# 1st non repeated character
+
+inputstr1 = "teeter"
+
+for char in inputstr1:
+    if inputstr1.count(char) == 1:
+        print("char is:", char) #r
+        break #ends whole loop as when added teeteraabb the loops does not end at the intended character but will show the result
