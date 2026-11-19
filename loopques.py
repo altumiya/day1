@@ -81,3 +81,19 @@ if primenum > 1:
         print(f"{primenum} is a prime number")  
 else:              
     print(f"{primenum} is not a prime number")
+
+# unique items    
+
+items = ['apple', 'mango' , "kiwi", "apple" , "banana"]
+uniqueitem = set()  #set does not take duplicate values
+
+for item in items:
+    if item in uniqueitem:
+        print("duplicate found:", item) #apple
+        break
+    uniqueitem.add(item)
+else:
+    print("No duplicates found.")
+
+print("Unique items tracked:", uniqueitem)    # Unique items tracked: {'mango', 'apple', 'kiwi'} 
+#no banana due to break as "banana" comes after that duplicate, the loop never reaches it.)    
