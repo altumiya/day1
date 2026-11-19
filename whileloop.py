@@ -1,5 +1,7 @@
 # exponential backoff 
-
+#Exponential backoff is a retry strategy 
+# where you double your waiting time after every failed attempt 
+# instead of retrying immediately.
 import time
 
 waittime = 1.0
