@@ -44,3 +44,15 @@ for char in inputstr1:
     if inputstr1.count(char) == 1:
         print("char is:", char) #r
         break #ends whole loop as when added teeteraabb the loops does not end at the intended character but will show the result
+
+# factorial using while loop
+
+original_number = 5
+number = original_number
+factorial = 1
+
+while number > 0:
+    factorial *= number
+    number -= 1
+
+print(f"factorial value of {original_number} is: {factorial}") # 120    
