@@ -66,3 +66,18 @@ while True:
         break
     else:
         print("not a correct number") # if not from 1 to 10 this will be printed
+
+# prime number check
+
+primenum = 28
+isprime = True
+
+if primenum > 1:
+    for i in range(2, int(primenum**0.5) + 1):
+        if (primenum % i ) == 0:
+            print(f"{primenum} is not a prime number")
+            break
+    else:
+        print(f"{primenum} is a prime number")  
+else:              
+    print(f"{primenum} is not a prime number")
