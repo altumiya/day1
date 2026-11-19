@@ -55,4 +55,14 @@ while number > 0:
     factorial *= number
     number -= 1
 
-print(f"factorial value of {original_number} is: {factorial}") # 120    
+print(f"factorial value of {original_number} is: {factorial}") # 120  
+
+#input validation
+
+while True:
+    usernum = int(input("enter input from 1 to 10: "))
+    if 1 <= usernum <= 10:
+        print("correct number") # if 1 to 10 correct number will be printed
+        break
+    else:
+        print("not a correct number") # if not from 1 to 10 this will be printed
