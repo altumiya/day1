@@ -23,3 +23,14 @@ for i in range(1,11):
     if i ==5: 
         continue # skips the given iteration
     print(number, 'x', i, '=', number*i)
+
+
+# reverse string
+string = "python"
+print(string[::-1]) #nohtyp
+
+inputstr = "abhishek"
+revstr = ""
+for char in inputstr:
+    revstr = char + revstr
+print(revstr)    # kehsihab
